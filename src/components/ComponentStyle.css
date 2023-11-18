@@ -1,0 +1,35 @@
+
+/* Search Btn Style  */
+
+#submitBtn{
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Forcast List Style  */
+
+ul.forcast-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+ul.forcast-list li {
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+    margin: 5px;
+}
+
+/* Chart Styles  */
+
+.recharts-wrapper{
+    width: 100% !important;
+}
+
+svg.recharts-surface{
+    width: 100% !important;
+}
