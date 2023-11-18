@@ -1,4 +1,3 @@
-// useCurrentWeather.js
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 
@@ -26,7 +25,7 @@ const useCurrentWeather = (location, apiKey) => {
         console.error(err);
         setWeatherData(null);
         setError('Failed to fetch weather data');
-        toast.error('Failed to fetch weather data');
+        toast.error('Check your city name! Try again.');
       } finally {
         setLoading(false);
       }

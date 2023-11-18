@@ -25,7 +25,7 @@ const useWeatherForecast = (location, apiKey) => {
         console.error(err);
         setForecastData(null);
         setError('Failed to fetch forecast data');
-        toast.error('Failed to fetch forecast data');
+        // toast.error('Failed to fetch forecast data');
       } finally {
         setLoading(false);
       }

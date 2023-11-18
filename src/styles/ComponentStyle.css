@@ -28,8 +28,22 @@ ul.forcast-list li {
 
 .recharts-wrapper{
     width: 100% !important;
+    margin-top:-30px
 }
 
 svg.recharts-surface{
     width: 100% !important;
 }
+
+.recharts-legend-wrapper{
+    width: 100% !important;
+}
+
+
+/* Responsive Style  */
+
+@media only screen and (min-width: 992px) {
+    .recharts-wrapper{
+        margin-top:-40px
+    }
+  }

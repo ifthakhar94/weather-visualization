@@ -32,7 +32,7 @@ const useForecastVisualization = (location, apiKey) => {
         console.error(error);
         setForecastChartData(null);
         setError('Failed to fetch forecast data');
-        toast.error('Failed to fetch forecast data');
+        // toast.error('Failed to fetch forecast data');
       } finally {
         setLoading(false);
       }

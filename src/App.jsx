@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import WeatherForecast from './components/WeatherForecast';
 import ForecastVisualization from './components/ForecastVisualization';
 import { WeatherIcon, sfgfg } from './utility/icons/icons';
+import "./styles/ComponentStyle.css"
 
 function App() {
   return (
@@ -21,13 +22,13 @@ function App() {
           </div>
           <div className="weather-wrapper mt-3">
             <div className="row">          
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-4">
                 <WeatherForecast />
               </div>
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-4">
                 <CurrentWeather />
               </div>
-              <div className="col-md-4">
+              <div className="col-md-6 col-lg-4">
                 <ForecastVisualization />
               </div>
             </div>

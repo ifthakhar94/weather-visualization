@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { logLocation, updateLocation } from '../redux/actions';
-import "./ComponentStyle.css"
 const SearchForm = () => {
   const [inputValue, setInputValue] = useState('');
   const dispatch = useDispatch();
